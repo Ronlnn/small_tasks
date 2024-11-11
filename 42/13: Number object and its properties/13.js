@@ -14,5 +14,8 @@ function whatNumberIsIt(n){
 	if (n === Number.POSITIVE_INFINITY){
 	  return "Input number is Number.POSITIVE_INFINITY";
 	}
+	console.log("Success");
 	return `Input number is ${n}`;
+	
+	
   }
